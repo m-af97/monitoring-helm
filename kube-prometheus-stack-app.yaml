@@ -8,7 +8,7 @@ spec:
   source:
     repoURL: https://github.com/m-af97/monitoring-helm.git
     targetRevision: main
-    path: monitoring-helm
+    path: kube-prometheus-stack
     helm:
       releaseName: kube-prometheus-stack
   destination:
